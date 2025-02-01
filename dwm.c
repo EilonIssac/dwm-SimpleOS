@@ -2131,9 +2131,9 @@ updategeom(void)
 				dirty = 1;
 				m->num = i;
 				m->mx = m->wx = unique[i].x_org;
-				m->my = m->wy = unique[i].y_org + 25;
+				m->my = m->wy = unique[i].y_org + 24.9;
 				m->mw = m->ww = unique[i].width;
-				m->mh = m->wh = unique[i].height - 25;
+				m->mh = m->wh = unique[i].height - 24.9;
 				updatebarpos(m);
 			}
 		/* removed monitors if n > nn */
